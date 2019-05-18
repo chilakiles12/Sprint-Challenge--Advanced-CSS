@@ -162,8 +162,9 @@ p {
 }
 .navigation {
   display: flex;
-  flex-flow: column;
+  justify-content: center;
   align-items: center;
+  flex-flow: column;
   margin: 30px;
 }
 .navigation h1 {
@@ -172,10 +173,10 @@ p {
 }
 .navigation a {
   text-decoration: none;
-  margin: 0 20px;
   font-size: 1.5rem;
   font-weight: bold;
   color: gray;
+  margin: 0 20px;
 }
 footer {
   color: #22283B;
@@ -234,12 +235,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
-  background-color: #1a3753;
-  color: white;
   width: 40%;
   height: 40px;
   font-size: 2rem;
+  border-radius: 10px;
+  background-color: #1a3753;
+  color: white;
 }
 .home .walk .walk-img {
   width: 46%;
