@@ -229,6 +229,18 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #1a3753;
+  color: white;
+  width: 40%;
+  height: 40px;
+  font-size: 2rem;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
